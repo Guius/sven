@@ -52,7 +52,7 @@ export class AppComponent {
     // record sven's current position in memory before he moves
     this.lastSvenPosition.x = this.currentSvenPosition.x;
     // is he at the extremes of the garden?
-    if (this.currentSvenPosition.x === 31) {
+    if (this.currentSvenPosition.x === 30) {
       this.moveLeft();
     } else if (
       this.currentSvenPosition.x === 1 ||
