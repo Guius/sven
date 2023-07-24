@@ -1,2 +1,2 @@
-![[snail-forwards.png]]
+![snail-forwards.png]
 This is sven
