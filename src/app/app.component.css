@@ -21,7 +21,7 @@ pale orange: rgb(235, 190, 155)
   background-color: var(--dark-green);
   display: grid;
   grid-template-columns: repeat(30, 1fr);
-  grid-template-rows: repeat(12, 1fr);
+  grid-template-rows: repeat(30, 1fr);
 }
 
 #snail-box {
