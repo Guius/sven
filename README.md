@@ -1,2 +1,2 @@
-![sven]('snail-backwards.png')
+![sven]('src/assets/snail-backwards.png')
 This is sven
