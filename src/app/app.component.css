@@ -1,0 +1,35 @@
+/* 
+brown: rgb(80, 36, 25)
+dark green: rgb(126, 161, 114)
+pale green: rgb(199, 203, 133)
+dark orange: rgb(231, 169, 119)
+pale orange: rgb(235, 190, 155)
+ */
+
+.garden {
+  --dark-brown: rgb(80, 36, 25);
+  --dark-green: rgb(126, 161, 114);
+  --pale-green: rgb(199, 203, 133);
+  --dark-orange: rgb(231, 169, 119);
+  --pale-orange: rgb(235, 190, 155);
+}
+
+.garden {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--dark-green);
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+
+#snail-box {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.snail {
+  height: auto;
+  width: 100%;
+}
